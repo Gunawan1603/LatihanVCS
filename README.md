@@ -25,18 +25,18 @@ Tugas : Membuat satu repository LatihanVCS dan Buat file README.md
 menggunakan 64bit, unduh yang 64bit. Begitu juga kalau
 menggunakan 32bit.
 
-![01_download git](../Picture/01_istalasi%20git/01_download%20git.jpg)
+![01_download git](https://i.imgur.com/flW7HYZ.jpg)
 
-![02_istall git](../Picture/01_istalasi%20git/02_istall%20git.jpg)
+![02_istall git](https://i.imgur.com/IHWRTZ0.jpg)
 
-![03_git bash](../Picture/01_istalasi%20git/03_git%20bash.jpg)
+![03_git bash](https://i.imgur.com/knJxwP3.jpg)
 
 • Selamat, Git sudah terinstal di Windows. Untuk mencobanya,
 silahkan buka CMD atau PowerShell, kemudian ketik perintah
 
 ``git --version``
 
-![04_git version](../Picture/01_istalasi%20git/04_git%20version.jpg)
+![04_git version](https://i.imgur.com/0Hf9zAV.jpg)
 
 **Menambahkan Global Config**
 
@@ -55,7 +55,7 @@ kegagalan saat menjalankan perintah git commit
 
 ``$ git config --global user. email “nama_user”``
 
-![05_git configuration](../Picture/01_istalasi%20git/05_git%20configuration.jpg)
+![05_git configuration](https://i.imgur.com/dk0IWyl.jpg)
 
 **Membuat Reposiory Local**
 
@@ -71,7 +71,7 @@ sehingga muncul git bash commad
 
 ``$ cd Latihan-VCS``
 
-![01_Membuat Repository Local](../Picture/02_Membuat%20Reposiory%20Local/01_Membuat%20Repository%20Local.jpg)
+![01_Membuat Repository Local](https://i.imgur.com/fGQPGUx.jpg)
 
 • Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya
 masuk kedalam direktori tersebut dengan perintah cd (change
@@ -86,12 +86,12 @@ directory)
 
 ``$ git init``
 
-![02_git init](../Picture/02_Membuat%20Reposiory%20Local/02_git%20init.jpg)
+![02_git init](https://i.imgur.com/28zqg1F.jpg)
 
 • Repository baru berhasil di inisialisasi, dengan terbentuknya satu
 Direktori hidden dengan nama .git
 
-![03_git folder](../Picture/02_Membuat%20Reposiory%20Local/03_git%20folder.jpg)
+![03_git folder](https://i.imgur.com/eOUUXj2.jpg)
 
 • Pada direktori tersebut, semua perubahan pada working directory
 akan disimpan.
@@ -105,11 +105,11 @@ filenya pada direktori aktif (repository)
 
 ``$ echo “# Latihan-VCS” >> README. md``
 
-![04_Readmi.md](../Picture/02_Membuat%20Reposiory%20Local/04_Readmi.md.jpg)
+![04_Readmi.md](https://i.imgur.com/hs9IwRN.jpg)
 
 • File README.md berhasil dibuat.
 
-![05_Readmi.md file](../Picture/02_Membuat%20Reposiory%20Local/05_Readmi.md%20file.jpg)
+![05_Readmi.md file](https://i.imgur.com/5vwfWcu.jpg)
 
 Menambahkan File baru pada repository
 • Untuk menambahkan file yang baru saja dibuat tersebut gunakan
@@ -119,7 +119,7 @@ perintah git add.
 
 • File README.md berhasil ditambahkan
 
-![06_Readmi.md add](../Picture/02_Membuat%20Reposiory%20Local/06_Readmi.md%20add.jpg)
+![06_Readmi.md add](https://i.imgur.com/i5VBEV0.jpg)
 
 **Commit (Menyimpan perubahan ke database)**
 
@@ -128,11 +128,11 @@ local, gunakan perintah git commit -m “komentar commit”
 
 ``$ git commit -m “Bahasa Pemrograman Repository Local LatihanVCS”``
 
-![07_git commit](../Picture/02_Membuat%20Reposiory%20Local/07_git%20commit.jpg)
+![07_git commit](https://i.imgur.com/NEmnci8.jpg)
 
 • Perubahan berhasil disimpan.
 
-![08_git commit perubahan tersimpan](../Picture/02_Membuat%20Reposiory%20Local/08_git%20commit%20perubahan%20tersimpan.jpg)
+![08_git commit perubahan tersimpan](https://i.imgur.com/cBSr7CB.jpg)
 
 **Membuat repository server**
 
@@ -144,17 +144,17 @@ local, gunakan perintah git commit -m “komentar commit”
 
 • Dari menu (icon +) klik New Repository
 
-![01_New repository](../Picture/03_github_update%20server/01_New%20repository.jpg)
+![01_New repository](https://i.imgur.com/TmBu3oX.jpg)
 
 **Membuat repository server**
 
 • Isi nama repositorynya, misal: LatihanVCS.
 
-![02_Nama repository](../Picture/03_github_update%20server/02_Nama%20repository.jpg)
+![02_Nama repository](https://i.imgur.com/vWI094T.jpg)
 
 • lalu klik tombol Create repository
 
-![03_repository](../Picture/03_github_update%20server/03_repository.jpg)
+![03_repository](https://i.imgur.com/4Wa6JEZ.jpg)
 
 **Menambahkan Remote Repository**
 
@@ -165,7 +165,7 @@ sehingga dapat diakses oleh banyak user.
 
 Alamat url kita
 
-![04_remote server url](../Picture/03_github_update%20server/04_remote%20server%20url.jpg)
+![04_remote server url](https://i.imgur.com/Ughvelu.jpg)
 
 • Untuk menambahkan remote repository server, gunakan perintah
 
@@ -173,7 +173,7 @@ git remote add origin [url]
 
 ``$ git remote add origin https://github.com/Gunawan1603/LatihanVCS.git``
 
-![05_git remote url](../Picture/03_github_update%20server/05_git%20remote%20url.jpg)
+![05_git remote url](https://i.imgur.com/8xgKR1V.jpg)
 
 **Push (Mengirim perubahan ke server)**
 
@@ -185,8 +185,9 @@ perintah git push.
 • Perintah ini akan meminta memasukkan username dan password
 pada akun github.com
 
-![06_git push master,masuk paswor hit hub](../Picture/03_github_update%20server/06_git%20push%20master,masuk%20paswor%20hit%20hub.jpg)
-![07_after push git push master](../Picture/03_github_update%20server/07_after%20push%20git%20push%20master.jpg)
+![06_git push master,masuk paswor hit hub](https://i.imgur.com/nPHNdXq.jpg)
+
+![07_after push git push master](https://i.imgur.com/DoS6Q24.jpg)
 
 **Melihat hasilnya pada server repository**
 
@@ -197,7 +198,7 @@ arahkan pada repositorinya.
 terlihat pada laman
 tersebut.
 
-![08_hasil di server github](../Picture/03_github_update%20server/08_hasil%20di%20server%20github.jpg)
+![08_hasil di server github](https://i.imgur.com/Z0cAavc.jpg)
 
 **Clone Repository**
 
@@ -209,7 +210,7 @@ repositorynya (working directory).
 
 ``$ git clone https://github.com/Gunawan1603/LatihanVCS.git``
 
-![09_git clone Repository](../Picture/03_github_update%20server/09_git%20clone%20Repository.jpg)
+![09_git clone Repository](https://i.imgur.com/wspcPsR.jpg)
 
 **Kegunaan file README.md**
 
@@ -226,7 +227,7 @@ menggunakan Markdown format.
 
 • untuk lebih jelasnya, dapat anda pelajari cara penggunaan markdown
 
-![10_Markdown Edit](../Picture/03_github_update%20server/10_Markdown%20Edit.jpg)
+![10_Markdown Edit](https://i.imgur.com/XglK3FE.jpg)
 
 
 
